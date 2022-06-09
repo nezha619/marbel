@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Slab', serif;
+}
+ul, ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+a, a:hover {
+    text-decoration: none;
+    color: black;
+}
+img {
+    vertical-align: middle;
+}
+:root {
+    --primary_color: #1d1d1d;
+    --secondary_color: #4e4e4e;
+}
+/* body{
+    background-color: var(--primary_color);
+} */
+/* common css end */
+
+/* Navigation part start  */
+.navbar-brand{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    color: var(--secondary_color);
+    font-size: 40px;
+}
+.nav-con ul li a{
+    color: var(--secondary_color);
+    transition: .3s;
+    text-transform: uppercase;
+    padding: 0 10px;
+}
+.nav-con ul li:hover a{
+    color: #1abb9c;
+}
+/* Navigation part end  */
+
+/* Hero part start  */
+.hero-img{
+    position: relative;
+}
+.hero-con{
+    position: relative;
+}
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.centered h1{
+    font-size: 35px;
+    padding-bottom: 45px;
+}
+.centered h4{
+    font-size: 27px;
+    color: #a8a8a8;
+}
+.btn-info{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300;
+    color: white;
+    padding: 8px 25px;
+    margin-top: 25px;
+}
+/* Hero part end  */
+
+/* Service part start  */
+.service-con img{
+    margin-bottom: 15px;
+}
+/* Service part end  */
+
+/* Latest work part start  */
+.work-con h5{
+    color: #4e4e4e;
+}
+.work-con p{
+    color: #4e4e4e;
+}
+.work-con .light{
+     color: #d0d0d0;
+}
+.card{
+    border: none;
+}
+/* Latest work part end  */
+
+/* quotation part strat  */
+.quote-con-main{
+    background: #efefef;
+}
+.quote-con-main i{
+    color: #a1a1a1;
+}
+.quote-con p{
+    display: flex;
+    width: 50%;
+}
+.quote-con p{
+    font-size: 20px;
+    color: #a1a1a1;
+}
+/* quotation part end  */
+
+/* contact part start  */
+.contact-con-main{
+    background: #1f1f1f;
+    color: #cacaca;
+}
+.contact-details{
+    display: flex;
+}
+.con-detalis{
+    padding-left: 10px;
+}
+.contact-details i{
+    color: #a79574;
+}
+.posts-details p{
+    padding: 0;
+    margin: 0;
+}
+.posts-details small{
+    font-size: 12px;
+}
+/* contact part end  */
+
+/* footer part start  */
+footer{
+    background: #1f1f1f;
+    color: white;
+    font-size: 14px;
+}
+/* footer part end  */
